@@ -1,0 +1,30 @@
+.header .link-logo {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.33333;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #2e2f42;
+}
+
+.header .nav .link {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+.address .link-mailto,
+.address .link-tel {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    color: #434455;
+    text-decoration: none;
+}
+
+.address .link-mailto:focus, .address .link-mailto:hover,
+.address .link-tel:focus, .address .link-tel:hover {
+    color: #404bbf;
+}
