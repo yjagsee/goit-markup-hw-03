@@ -1,3 +1,7 @@
+.header {
+    width: 100%;
+}
+
 .header .link-logo {
     font-weight: 700;
     font-size: 18px;
@@ -6,6 +10,7 @@
     text-transform: uppercase;
     text-decoration: none;
     color: #2e2f42;
+    margin-right: 76px;
 }
 
 .header .nav .link {
@@ -27,4 +32,32 @@
 .address .link-mailto:focus, .address .link-mailto:hover,
 .address .link-tel:focus, .address .link-tel:hover {
     color: #404bbf;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 24px;
+}
+
+.nav .list {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 40px;
+    padding-left: 0;
+}
+
+.nav {
+    margin-right: auto;
+}
+
+.address .list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
 }

@@ -1,3 +1,7 @@
+.features {
+    width: 100%;
+}
+
 .features .list .text {
     font-weight: 400;
     font-size: 16px;
@@ -12,4 +16,18 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+}
+
+.features .list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    gap: 24px;
+    padding-left: 15px;
+}
+
+.features .container {
+    padding: 120px 0;
+    gap: 24px;
 }

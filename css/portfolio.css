@@ -1,9 +1,16 @@
+.portfolio {
+    width: 100%;
+}
+
 .portfolio .subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-left: 16px;
+    padding-top: 32px;
+    margin-bottom: 8px;
 }
 
 .portfolio .text {
@@ -12,6 +19,8 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-left: 16px;
+    padding-bottom: 32px;
 }
 .portfolio .section-title {
     font-weight: 700;
@@ -20,4 +29,28 @@
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 72px;
+}
+
+.portfolio .list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.portfolio .list .item {
+    width: calc((100% - 48px) / 3);
+}
+
+.portfolio img {
+    display: block;
+}
+
+.portfolio .container {
+    margin: 120px auto;
+    justify-content: center;
 }
