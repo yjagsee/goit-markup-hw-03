@@ -7,6 +7,7 @@
     letter-spacing: 0.02em;
     text-align: center;
     width: 100%;
+    padding: 188px 15px;
 }
 
 .hero .button {
@@ -18,7 +19,6 @@
     background-color: #4d5ae5;
     cursor: pointer;
     color: #ffffff;
-    margin-bottom: 188px;
     padding: 16px 32px;
     border: none;
     border-radius: 4px;
@@ -46,8 +46,8 @@
 }
 
 .page-title {
-    padding-top: 188px;
-    padding-bottom: 48px;
+    margin-bottom: 48px;
+    max-width: 496px;
 }
 
 .hero .container {

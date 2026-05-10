@@ -1,5 +1,6 @@
 .portfolio {
     width: 100%;
+    padding: 120px 0;
 }
 
 .portfolio .subtitle {
@@ -42,8 +43,9 @@
     padding-right: 0;
 }
 
-.portfolio .list .item {
+.portfolio .list-item {
     width: calc((100% - 48px) / 3);
+    border: 1px solid #e7e9fc;
 }
 
 .portfolio img {
@@ -51,6 +53,9 @@
 }
 
 .portfolio .container {
-    margin: 120px auto;
     justify-content: center;
+}
+
+.portfolio-content-wrapper {
+    padding: 32px 16px;
 }

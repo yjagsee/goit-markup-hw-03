@@ -1,5 +1,6 @@
 .features {
     width: 100%;
+    padding: 120px 0;
 }
 
 .features .list .text {
@@ -16,6 +17,7 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .features .list {
@@ -24,10 +26,12 @@
     justify-content: center;
     flex-direction: row;
     gap: 24px;
-    padding-left: 15px;
 }
 
 .features .container {
-    padding: 120px 0;
     gap: 24px;
+}
+
+.features .list-item {
+    max-width: 264px;
 }

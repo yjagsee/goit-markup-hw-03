@@ -1,5 +1,6 @@
 .header {
     width: 100%;
+    border-bottom: 1px solid #E7E9FC;
 }
 
 .header .link-logo {
@@ -60,4 +61,6 @@
     align-items: center;
     justify-content: flex-start;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }

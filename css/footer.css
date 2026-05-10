@@ -4,11 +4,13 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px;
 }
 
 .footer {
     background-color: #2e2f42;
     width: 100%;
+    padding: 100px 15px;
 }
 
 .footer .link-logo {
@@ -25,5 +27,4 @@
 .footer .container {
     display: flex;
     flex-direction: column;
-    padding: 100px 15px;
 }
