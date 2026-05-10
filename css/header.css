@@ -11,7 +11,7 @@
     text-transform: uppercase;
     text-decoration: none;
     color: #2e2f42;
-    margin-right: 52px;
+    margin-right: 76px;
 }
 
 .header .nav .link {
@@ -40,8 +40,10 @@
 .header .container {
     display: flex;
     align-items: center;
+}
+
+.header .container:not(.link-logo) {
     gap: 24px;
-    padding: 24px;
 }
 
 .nav .list {
